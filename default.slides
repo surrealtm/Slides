@@ -1,0 +1,147 @@
+#
+# First Slide
+#
+
+:slide
+:background 121 143 86
+
+:y 0.5
+:shadow 0 0 0
+:underline
+:align center median
+Hello World
+
+:font Barlow-20
+:align left median
+
+:bullet
+:shadow 0 0 0
+:underline
+This is going to be a presentation!
+:bullet
+:shadow 0 0 0
+With a showcase of what we can do
+
+
+
+#
+# Second Slide
+#
+
+:slide
+:background 40 40 50
+:x 0.5
+:y 0.5
+:font Barlow-45
+:shadow on
+:align center median
+This is the second slide
+
+:x 0.5
+:y 0.66
+:font Barlow-20
+:align center median
+:bullet
+We have a list of bullet points here
+:bullet
+These tell us sorted information
+:bullet
+They can also be centered
+
+
+
+#
+# Third Slide
+#
+
+:slide
+:background 40 40 50
+
+:y 0.25
+:font Barlow-45
+:underline
+:shadow
+We can show images :)
+
+:y 0.5
+:w auto
+:h 0.33
+:shadow
+:image TheWitnessWide.jpg
+
+
+#
+# Fourth Slide
+#
+
+:slide
+:background 40 40 50
+
+:y 0.15
+:font Barlow-35
+:underline
+:shadow
+There is basic interaction inside of slides
+instead of immediately skipping to the next one
+
+:y 0.5
+:x 0.25
+:align left
+:font Barlow-20
+
+:interact 1
+:bullet
+This is the first text that appears
+
+:interact 2
+:bullet
+This text appears next and indicates the image coming up next:
+
+:x 0.5
+:y 0.75
+:h 0.25
+:w auto
+:align center median
+:interact 3
+:shadow 255 255 255
+:image profile.jpg
+
+:interact 3
+This is the image!
+
+
+
+#
+# Second-to-Last Slide
+#
+
+:slide
+:background 255 100 100
+:shadow on
+:align center median
+:font Barlow-45
+:x 0.5
+:y 0.5
+:underline
+Thank you for watching
+
+
+
+#
+# Last Slide
+#
+
+:slide
+:background 255 100 100
+:shadow off
+:align center median
+:font Barlow-30
+:x 0.5
+:y 0.33
+Message
+
+:underline
+victor.matheke@t-online.de
+
+:underline off
+for more information on this!
